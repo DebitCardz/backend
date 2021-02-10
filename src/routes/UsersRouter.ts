@@ -473,7 +473,7 @@ UsersRouter.route('/:id/testimonial')
       await testimonial.save()
       return res.json({
         success: true,
-        message: 'updated testimonial successfully',
+        message: 'Updated testimonial successfully',
         testimonial: testimonial.serialize(),
       })
     }
@@ -481,7 +481,7 @@ UsersRouter.route('/:id/testimonial')
     await testimonial.save()
     return res.json({
       success: true,
-      message: 'updated testimonial successfully',
+      message: 'Updated testimonial successfully',
       testimonial: testimonial.serialize(),
     })
   })
